@@ -10,7 +10,7 @@ import lombok.Setter;
 @Entity
 @Getter @Setter
 public class Customer {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String email;
     private String pwd;
