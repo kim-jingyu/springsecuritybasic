@@ -1,3 +1,4 @@
+/*
 package com.eazybytes.config;
 
 import com.eazybytes.model.Customer;
@@ -36,3 +37,4 @@ public class EazyBankUserDetails implements UserDetailsService {
         return new User(userName, password, authorities);
     }
 }
+*/
