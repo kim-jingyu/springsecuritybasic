@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 @RestController
 @RequiredArgsConstructor
-public class NoticesController {
+public class NoticeController {
     private final NoticeRepository noticeRepository;
 
     @GetMapping("/notices")
