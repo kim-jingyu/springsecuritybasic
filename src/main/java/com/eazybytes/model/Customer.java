@@ -14,7 +14,7 @@ import java.util.Date;
 @Getter @Setter
 public class Customer {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int customerId;
     private String name;
     private String email;
 
